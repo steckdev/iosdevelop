@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADB5656316CD5626008DAB65 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB5656216CD5626008DAB65 /* UIKit.framework */; };
+		ADB5656516CD5626008DAB65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB5656416CD5626008DAB65 /* Foundation.framework */; };
+		ADB5656716CD5626008DAB65 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB5656616CD5626008DAB65 /* CoreGraphics.framework */; };
+		ADB5656D16CD5626008DAB65 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADB5656B16CD5626008DAB65 /* InfoPlist.strings */; };
+		ADB5656F16CD5626008DAB65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB5656E16CD5626008DAB65 /* main.m */; };
+		ADB5657316CD5626008DAB65 /* ValentineAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB5657216CD5626008DAB65 /* ValentineAppDelegate.m */; };
+		ADB5657516CD5626008DAB65 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = ADB5657416CD5626008DAB65 /* Default.png */; };
+		ADB5657716CD5626008DAB65 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADB5657616CD5626008DAB65 /* Default@2x.png */; };
+		ADB5657916CD5626008DAB65 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADB5657816CD5626008DAB65 /* Default-568h@2x.png */; };
+		ADB5657C16CD5626008DAB65 /* ValentineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB5657B16CD5626008DAB65 /* ValentineViewController.m */; };
+		ADB5657F16CD5626008DAB65 /* ValentineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADB5657D16CD5626008DAB65 /* ValentineViewController.xib */; };
+		ADB5658616CD5860008DAB65 /* HappyValentinesDay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADB5658516CD5860008DAB65 /* HappyValentinesDay.jpg */; };
+		ADB5658816CD7687008DAB65 /* Redheart.png in Resources */ = {isa = PBXBuildFile; fileRef = ADB5658716CD7687008DAB65 /* Redheart.png */; };
+		ADB5658A16CD76AC008DAB65 /* RedheartLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = ADB5658916CD76AC008DAB65 /* RedheartLarge.png */; };
+		ADB5658C16CD7708008DAB65 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = ADB5658B16CD7708008DAB65 /* Default-Portrait~ipad.png */; };
+		ADB5658E16CD770B008DAB65 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = ADB5658D16CD770B008DAB65 /* Default-Portrait@2x~ipad.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ADB5655F16CD5626008DAB65 /* Valentine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Valentine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADB5656216CD5626008DAB65 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ADB5656416CD5626008DAB65 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ADB5656616CD5626008DAB65 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ADB5656A16CD5626008DAB65 /* Valentine-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Valentine-Info.plist"; sourceTree = "<group>"; };
+		ADB5656C16CD5626008DAB65 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ADB5656E16CD5626008DAB65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADB5657016CD5626008DAB65 /* Valentine-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Valentine-Prefix.pch"; sourceTree = "<group>"; };
+		ADB5657116CD5626008DAB65 /* ValentineAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ValentineAppDelegate.h; sourceTree = "<group>"; };
+		ADB5657216CD5626008DAB65 /* ValentineAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValentineAppDelegate.m; sourceTree = "<group>"; };
+		ADB5657416CD5626008DAB65 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		ADB5657616CD5626008DAB65 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		ADB5657816CD5626008DAB65 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		ADB5657A16CD5626008DAB65 /* ValentineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ValentineViewController.h; sourceTree = "<group>"; };
+		ADB5657B16CD5626008DAB65 /* ValentineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValentineViewController.m; sourceTree = "<group>"; };
+		ADB5657E16CD5626008DAB65 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ValentineViewController.xib; sourceTree = "<group>"; };
+		ADB5658516CD5860008DAB65 /* HappyValentinesDay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = HappyValentinesDay.jpg; path = ../HappyValentinesDay.jpg; sourceTree = "<group>"; };
+		ADB5658716CD7687008DAB65 /* Redheart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Redheart.png; sourceTree = "<group>"; };
+		ADB5658916CD76AC008DAB65 /* RedheartLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RedheartLarge.png; sourceTree = "<group>"; };
+		ADB5658B16CD7708008DAB65 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		ADB5658D16CD770B008DAB65 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADB5655C16CD5626008DAB65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB5656316CD5626008DAB65 /* UIKit.framework in Frameworks */,
+				ADB5656516CD5626008DAB65 /* Foundation.framework in Frameworks */,
+				ADB5656716CD5626008DAB65 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADB5655616CD5626008DAB65 = {
+			isa = PBXGroup;
+			children = (
+				ADB5658D16CD770B008DAB65 /* Default-Portrait@2x~ipad.png */,
+				ADB5658B16CD7708008DAB65 /* Default-Portrait~ipad.png */,
+				ADB5658916CD76AC008DAB65 /* RedheartLarge.png */,
+				ADB5658716CD7687008DAB65 /* Redheart.png */,
+				ADB5656816CD5626008DAB65 /* Valentine */,
+				ADB5656116CD5626008DAB65 /* Frameworks */,
+				ADB5656016CD5626008DAB65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADB5656016CD5626008DAB65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADB5655F16CD5626008DAB65 /* Valentine.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADB5656116CD5626008DAB65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADB5656216CD5626008DAB65 /* UIKit.framework */,
+				ADB5656416CD5626008DAB65 /* Foundation.framework */,
+				ADB5656616CD5626008DAB65 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADB5656816CD5626008DAB65 /* Valentine */ = {
+			isa = PBXGroup;
+			children = (
+				ADB5657116CD5626008DAB65 /* ValentineAppDelegate.h */,
+				ADB5657216CD5626008DAB65 /* ValentineAppDelegate.m */,
+				ADB5657A16CD5626008DAB65 /* ValentineViewController.h */,
+				ADB5657B16CD5626008DAB65 /* ValentineViewController.m */,
+				ADB5657D16CD5626008DAB65 /* ValentineViewController.xib */,
+				ADB5656916CD5626008DAB65 /* Supporting Files */,
+			);
+			path = Valentine;
+			sourceTree = "<group>";
+		};
+		ADB5656916CD5626008DAB65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADB5658516CD5860008DAB65 /* HappyValentinesDay.jpg */,
+				ADB5656A16CD5626008DAB65 /* Valentine-Info.plist */,
+				ADB5656B16CD5626008DAB65 /* InfoPlist.strings */,
+				ADB5656E16CD5626008DAB65 /* main.m */,
+				ADB5657016CD5626008DAB65 /* Valentine-Prefix.pch */,
+				ADB5657416CD5626008DAB65 /* Default.png */,
+				ADB5657616CD5626008DAB65 /* Default@2x.png */,
+				ADB5657816CD5626008DAB65 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADB5655E16CD5626008DAB65 /* Valentine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADB5658216CD5626008DAB65 /* Build configuration list for PBXNativeTarget "Valentine" */;
+			buildPhases = (
+				ADB5655B16CD5626008DAB65 /* Sources */,
+				ADB5655C16CD5626008DAB65 /* Frameworks */,
+				ADB5655D16CD5626008DAB65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Valentine;
+			productName = Valentine;
+			productReference = ADB5655F16CD5626008DAB65 /* Valentine.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADB5655716CD5626008DAB65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Valentine;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = com.SteckDEV;
+			};
+			buildConfigurationList = ADB5655A16CD5626008DAB65 /* Build configuration list for PBXProject "Valentine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ADB5655616CD5626008DAB65;
+			productRefGroup = ADB5656016CD5626008DAB65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADB5655E16CD5626008DAB65 /* Valentine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADB5655D16CD5626008DAB65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB5656D16CD5626008DAB65 /* InfoPlist.strings in Resources */,
+				ADB5657516CD5626008DAB65 /* Default.png in Resources */,
+				ADB5657716CD5626008DAB65 /* Default@2x.png in Resources */,
+				ADB5657916CD5626008DAB65 /* Default-568h@2x.png in Resources */,
+				ADB5657F16CD5626008DAB65 /* ValentineViewController.xib in Resources */,
+				ADB5658616CD5860008DAB65 /* HappyValentinesDay.jpg in Resources */,
+				ADB5658816CD7687008DAB65 /* Redheart.png in Resources */,
+				ADB5658A16CD76AC008DAB65 /* RedheartLarge.png in Resources */,
+				ADB5658C16CD7708008DAB65 /* Default-Portrait~ipad.png in Resources */,
+				ADB5658E16CD770B008DAB65 /* Default-Portrait@2x~ipad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADB5655B16CD5626008DAB65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB5656F16CD5626008DAB65 /* main.m in Sources */,
+				ADB5657316CD5626008DAB65 /* ValentineAppDelegate.m in Sources */,
+				ADB5657C16CD5626008DAB65 /* ValentineViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ADB5656B16CD5626008DAB65 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADB5656C16CD5626008DAB65 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ADB5657D16CD5626008DAB65 /* ValentineViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADB5657E16CD5626008DAB65 /* en */,
+			);
+			name = ValentineViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADB5658016CD5626008DAB65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		ADB5658116CD5626008DAB65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADB5658316CD5626008DAB65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Valentine/Valentine-Prefix.pch";
+				INFOPLIST_FILE = "Valentine/Valentine-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ADB5658416CD5626008DAB65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Valentine/Valentine-Prefix.pch";
+				INFOPLIST_FILE = "Valentine/Valentine-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADB5655A16CD5626008DAB65 /* Build configuration list for PBXProject "Valentine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADB5658016CD5626008DAB65 /* Debug */,
+				ADB5658116CD5626008DAB65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADB5658216CD5626008DAB65 /* Build configuration list for PBXNativeTarget "Valentine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADB5658316CD5626008DAB65 /* Debug */,
+				ADB5658416CD5626008DAB65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADB5655716CD5626008DAB65 /* Project object */;
+}

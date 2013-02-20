@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD143BC016CB0F8C00DEE529 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD143BBF16CB0F8C00DEE529 /* UIKit.framework */; };
+		AD143BC216CB0F8C00DEE529 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD143BC116CB0F8C00DEE529 /* Foundation.framework */; };
+		AD143BC416CB0F8C00DEE529 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD143BC316CB0F8C00DEE529 /* CoreGraphics.framework */; };
+		AD143BCA16CB0F8D00DEE529 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD143BC816CB0F8D00DEE529 /* InfoPlist.strings */; };
+		AD143BCC16CB0F8D00DEE529 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD143BCB16CB0F8D00DEE529 /* main.m */; };
+		AD143BD016CB0F8D00DEE529 /* WhereamiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD143BCF16CB0F8D00DEE529 /* WhereamiAppDelegate.m */; };
+		AD143BD216CB0F8D00DEE529 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AD143BD116CB0F8D00DEE529 /* Default.png */; };
+		AD143BD416CB0F8D00DEE529 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD143BD316CB0F8D00DEE529 /* Default@2x.png */; };
+		AD143BD616CB0F8D00DEE529 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD143BD516CB0F8D00DEE529 /* Default-568h@2x.png */; };
+		AD143BD916CB0F8D00DEE529 /* WhereamiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD143BD816CB0F8D00DEE529 /* WhereamiViewController.m */; };
+		AD143BDC16CB0F8D00DEE529 /* WhereamiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD143BDA16CB0F8D00DEE529 /* WhereamiViewController.xib */; };
+		AD143BE316CB0FAF00DEE529 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = AD143BE216CB0FAF00DEE529 /* Default-Portrait~ipad.png */; };
+		AD143BE516CB0FB400DEE529 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = AD143BE416CB0FB400DEE529 /* Default-Portrait@2x~ipad.png */; };
+		AD143BE716CB0FBA00DEE529 /* ReactorIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AD143BE616CB0FBA00DEE529 /* ReactorIcon.png */; };
+		AD143BE916CB0FBD00DEE529 /* ReactorIconRetina.png in Resources */ = {isa = PBXBuildFile; fileRef = AD143BE816CB0FBD00DEE529 /* ReactorIconRetina.png */; };
+		AD143BEB16CB0FCA00DEE529 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = AD143BEA16CB0FCA00DEE529 /* Default-Landscape~ipad.png */; };
+		AD143BED16CB0FCE00DEE529 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = AD143BEC16CB0FCE00DEE529 /* Default-Landscape@2x~ipad.png */; };
+		AD143BEF16CB100500DEE529 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD143BEE16CB100500DEE529 /* CoreLocation.framework */; };
+		AD143BF116CB103500DEE529 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD143BF016CB103500DEE529 /* MapKit.framework */; };
+		ADDE56FF16CC26940001196F /* BNRMapPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDE56FE16CC26940001196F /* BNRMapPoint.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AD143BBB16CB0F8C00DEE529 /* 05.Wherami.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 05.Wherami.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD143BBF16CB0F8C00DEE529 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AD143BC116CB0F8C00DEE529 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AD143BC316CB0F8C00DEE529 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AD143BC716CB0F8D00DEE529 /* 05.Wherami-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "05.Wherami-Info.plist"; sourceTree = "<group>"; };
+		AD143BC916CB0F8D00DEE529 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD143BCB16CB0F8D00DEE529 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD143BCD16CB0F8D00DEE529 /* 05.Wherami-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "05.Wherami-Prefix.pch"; sourceTree = "<group>"; };
+		AD143BCE16CB0F8D00DEE529 /* WhereamiAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhereamiAppDelegate.h; sourceTree = "<group>"; };
+		AD143BCF16CB0F8D00DEE529 /* WhereamiAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhereamiAppDelegate.m; sourceTree = "<group>"; };
+		AD143BD116CB0F8D00DEE529 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AD143BD316CB0F8D00DEE529 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AD143BD516CB0F8D00DEE529 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AD143BD716CB0F8D00DEE529 /* WhereamiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhereamiViewController.h; sourceTree = "<group>"; };
+		AD143BD816CB0F8D00DEE529 /* WhereamiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhereamiViewController.m; sourceTree = "<group>"; };
+		AD143BDB16CB0F8D00DEE529 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/WhereamiViewController.xib; sourceTree = "<group>"; };
+		AD143BE216CB0FAF00DEE529 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		AD143BE416CB0FB400DEE529 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		AD143BE616CB0FBA00DEE529 /* ReactorIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ReactorIcon.png; sourceTree = "<group>"; };
+		AD143BE816CB0FBD00DEE529 /* ReactorIconRetina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ReactorIconRetina.png; sourceTree = "<group>"; };
+		AD143BEA16CB0FCA00DEE529 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		AD143BEC16CB0FCE00DEE529 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		AD143BEE16CB100500DEE529 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		AD143BF016CB103500DEE529 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		ADDE56FD16CC26940001196F /* BNRMapPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRMapPoint.h; sourceTree = "<group>"; };
+		ADDE56FE16CC26940001196F /* BNRMapPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRMapPoint.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD143BB816CB0F8C00DEE529 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD143BF116CB103500DEE529 /* MapKit.framework in Frameworks */,
+				AD143BEF16CB100500DEE529 /* CoreLocation.framework in Frameworks */,
+				AD143BC016CB0F8C00DEE529 /* UIKit.framework in Frameworks */,
+				AD143BC216CB0F8C00DEE529 /* Foundation.framework in Frameworks */,
+				AD143BC416CB0F8C00DEE529 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD143BB016CB0F8C00DEE529 = {
+			isa = PBXGroup;
+			children = (
+				AD143BF016CB103500DEE529 /* MapKit.framework */,
+				AD143BEE16CB100500DEE529 /* CoreLocation.framework */,
+				AD143BEC16CB0FCE00DEE529 /* Default-Landscape@2x~ipad.png */,
+				AD143BEA16CB0FCA00DEE529 /* Default-Landscape~ipad.png */,
+				AD143BE816CB0FBD00DEE529 /* ReactorIconRetina.png */,
+				AD143BE616CB0FBA00DEE529 /* ReactorIcon.png */,
+				AD143BE416CB0FB400DEE529 /* Default-Portrait@2x~ipad.png */,
+				AD143BE216CB0FAF00DEE529 /* Default-Portrait~ipad.png */,
+				AD143BC516CB0F8C00DEE529 /* 05.Wherami */,
+				AD143BBE16CB0F8C00DEE529 /* Frameworks */,
+				AD143BBC16CB0F8C00DEE529 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD143BBC16CB0F8C00DEE529 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD143BBB16CB0F8C00DEE529 /* 05.Wherami.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD143BBE16CB0F8C00DEE529 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD143BBF16CB0F8C00DEE529 /* UIKit.framework */,
+				AD143BC116CB0F8C00DEE529 /* Foundation.framework */,
+				AD143BC316CB0F8C00DEE529 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD143BC516CB0F8C00DEE529 /* 05.Wherami */ = {
+			isa = PBXGroup;
+			children = (
+				AD143BCE16CB0F8D00DEE529 /* WhereamiAppDelegate.h */,
+				AD143BCF16CB0F8D00DEE529 /* WhereamiAppDelegate.m */,
+				AD143BD716CB0F8D00DEE529 /* WhereamiViewController.h */,
+				AD143BD816CB0F8D00DEE529 /* WhereamiViewController.m */,
+				AD143BDA16CB0F8D00DEE529 /* WhereamiViewController.xib */,
+				AD143BC616CB0F8D00DEE529 /* Supporting Files */,
+				ADDE56FD16CC26940001196F /* BNRMapPoint.h */,
+				ADDE56FE16CC26940001196F /* BNRMapPoint.m */,
+			);
+			path = 05.Wherami;
+			sourceTree = "<group>";
+		};
+		AD143BC616CB0F8D00DEE529 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD143BC716CB0F8D00DEE529 /* 05.Wherami-Info.plist */,
+				AD143BC816CB0F8D00DEE529 /* InfoPlist.strings */,
+				AD143BCB16CB0F8D00DEE529 /* main.m */,
+				AD143BCD16CB0F8D00DEE529 /* 05.Wherami-Prefix.pch */,
+				AD143BD116CB0F8D00DEE529 /* Default.png */,
+				AD143BD316CB0F8D00DEE529 /* Default@2x.png */,
+				AD143BD516CB0F8D00DEE529 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD143BBA16CB0F8C00DEE529 /* 05.Wherami */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD143BDF16CB0F8D00DEE529 /* Build configuration list for PBXNativeTarget "05.Wherami" */;
+			buildPhases = (
+				AD143BB716CB0F8C00DEE529 /* Sources */,
+				AD143BB816CB0F8C00DEE529 /* Frameworks */,
+				AD143BB916CB0F8C00DEE529 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 05.Wherami;
+			productName = 05.Wherami;
+			productReference = AD143BBB16CB0F8C00DEE529 /* 05.Wherami.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD143BB216CB0F8C00DEE529 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Whereami;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = com.SteckDEV;
+			};
+			buildConfigurationList = AD143BB516CB0F8C00DEE529 /* Build configuration list for PBXProject "05.Wherami" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AD143BB016CB0F8C00DEE529;
+			productRefGroup = AD143BBC16CB0F8C00DEE529 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD143BBA16CB0F8C00DEE529 /* 05.Wherami */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD143BB916CB0F8C00DEE529 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD143BCA16CB0F8D00DEE529 /* InfoPlist.strings in Resources */,
+				AD143BD216CB0F8D00DEE529 /* Default.png in Resources */,
+				AD143BD416CB0F8D00DEE529 /* Default@2x.png in Resources */,
+				AD143BD616CB0F8D00DEE529 /* Default-568h@2x.png in Resources */,
+				AD143BDC16CB0F8D00DEE529 /* WhereamiViewController.xib in Resources */,
+				AD143BE316CB0FAF00DEE529 /* Default-Portrait~ipad.png in Resources */,
+				AD143BE516CB0FB400DEE529 /* Default-Portrait@2x~ipad.png in Resources */,
+				AD143BE716CB0FBA00DEE529 /* ReactorIcon.png in Resources */,
+				AD143BE916CB0FBD00DEE529 /* ReactorIconRetina.png in Resources */,
+				AD143BEB16CB0FCA00DEE529 /* Default-Landscape~ipad.png in Resources */,
+				AD143BED16CB0FCE00DEE529 /* Default-Landscape@2x~ipad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD143BB716CB0F8C00DEE529 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD143BCC16CB0F8D00DEE529 /* main.m in Sources */,
+				AD143BD016CB0F8D00DEE529 /* WhereamiAppDelegate.m in Sources */,
+				AD143BD916CB0F8D00DEE529 /* WhereamiViewController.m in Sources */,
+				ADDE56FF16CC26940001196F /* BNRMapPoint.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AD143BC816CB0F8D00DEE529 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD143BC916CB0F8D00DEE529 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AD143BDA16CB0F8D00DEE529 /* WhereamiViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD143BDB16CB0F8D00DEE529 /* en */,
+			);
+			name = WhereamiViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD143BDD16CB0F8D00DEE529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		AD143BDE16CB0F8D00DEE529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD143BE016CB0F8D00DEE529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "05.Wherami/05.Wherami-Prefix.pch";
+				INFOPLIST_FILE = "05.Wherami/05.Wherami-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AD143BE116CB0F8D00DEE529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "05.Wherami/05.Wherami-Prefix.pch";
+				INFOPLIST_FILE = "05.Wherami/05.Wherami-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD143BB516CB0F8C00DEE529 /* Build configuration list for PBXProject "05.Wherami" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD143BDD16CB0F8D00DEE529 /* Debug */,
+				AD143BDE16CB0F8D00DEE529 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD143BDF16CB0F8D00DEE529 /* Build configuration list for PBXNativeTarget "05.Wherami" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD143BE016CB0F8D00DEE529 /* Debug */,
+				AD143BE116CB0F8D00DEE529 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD143BB216CB0F8C00DEE529 /* Project object */;
+}
