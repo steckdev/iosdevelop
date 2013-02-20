@@ -144,7 +144,7 @@
         self = [super initWithFrame:frame];
         if(self) {
             [self setBackgroundColor:[UIColor clearColor]];
-            [self setCircleColor:[UIColor redColor]];
+            [self setCircleColor:[UIColor blueColor]];
         }
         return self;
     }
