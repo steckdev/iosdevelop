@@ -10,4 +10,9 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *UITimerLabel;
+@property (weak, nonatomic) NSTimer *timer;
+
+-(IBAction)start:(id)sender;
+
 @end
