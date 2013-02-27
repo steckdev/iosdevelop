@@ -29,4 +29,23 @@
     [[self timeLabel] setText:[formatter stringFromDate:now]];
 }
 
+- (id)initWithNibName:(NSString *)nibNameOrNil
+               bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil
+                           bundle:nibBundleOrNil];
+    
+    if (self) {
+        // Get the tab bar item
+        UITabBarItem *tbi = [self tabBarItem];
+        
+        //Give it a label
+        [tbi setTitle:@"Time"];
+        
+        UIImage *i = [UIImage imageNamed: @"Time.png"];
+        [tbi setImage:i];
+    }
+    return self;
+}
+
 @end

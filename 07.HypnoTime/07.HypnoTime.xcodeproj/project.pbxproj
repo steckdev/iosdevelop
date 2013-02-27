@@ -26,6 +26,8 @@
 		AD06B11716DDBACC0090D12C /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = AD06B11616DDBACC0090D12C /* Default-Landscape@2x~ipad.png */; };
 		AD06B11A16DDBB980090D12C /* TimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD06B11916DDBB980090D12C /* TimeViewController.m */; };
 		AD06B11C16DDBCC70090D12C /* TimeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD06B11B16DDBCC70090D12C /* TimeViewController.xib */; };
+		AD06B12716DDD13C0090D12C /* Hypno.png in Resources */ = {isa = PBXBuildFile; fileRef = AD06B12516DDD13B0090D12C /* Hypno.png */; };
+		AD06B12816DDD13C0090D12C /* Time.png in Resources */ = {isa = PBXBuildFile; fileRef = AD06B12616DDD13C0090D12C /* Time.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +57,8 @@
 		AD06B11816DDBB980090D12C /* TimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeViewController.h; sourceTree = "<group>"; };
 		AD06B11916DDBB980090D12C /* TimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeViewController.m; sourceTree = "<group>"; };
 		AD06B11B16DDBCC70090D12C /* TimeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimeViewController.xib; sourceTree = "<group>"; };
+		AD06B12516DDD13B0090D12C /* Hypno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hypno.png; sourceTree = "<group>"; };
+		AD06B12616DDD13C0090D12C /* Time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Time.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 		AD06B0DD16DDB0FB0090D12C = {
 			isa = PBXGroup;
 			children = (
+				AD06B12516DDD13B0090D12C /* Hypno.png */,
+				AD06B12616DDD13C0090D12C /* Time.png */,
 				AD06B11616DDBACC0090D12C /* Default-Landscape@2x~ipad.png */,
 				AD06B11416DDBABD0090D12C /* Default-Landscape~ipad.png */,
 				AD06B11216DDBAB80090D12C /* Default-Portrait@2x~ipad.png */,
@@ -198,6 +204,8 @@
 				AD06B11516DDBABD0090D12C /* Default-Landscape~ipad.png in Resources */,
 				AD06B11716DDBACC0090D12C /* Default-Landscape@2x~ipad.png in Resources */,
 				AD06B11C16DDBCC70090D12C /* TimeViewController.xib in Resources */,
+				AD06B12716DDD13C0090D12C /* Hypno.png in Resources */,
+				AD06B12816DDD13C0090D12C /* Time.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
