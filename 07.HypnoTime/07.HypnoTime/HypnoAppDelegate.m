@@ -20,13 +20,7 @@
     // This line will generate a warning, ignore it for now
     HypnosisViewController *hvc = [[HypnosisViewController alloc] init];
     
-    
-    // This will get a pointer to an object that representa the app bundle
-    NSBundle *appBundle = [NSBundle mainBundle];
-    
-    // Tell the TimeVC to look in the appBundle for the file TimeViewController.xib
-    TimeViewController *tvc = [[TimeViewController alloc] initWithNibName:@"TimeViewController" bundle:appBundle];
-    
+    TimeViewController *tvc = [[TimeViewController alloc] init];    
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
     [tabBarController setViewControllers:@[hvc, tvc]];
     
