@@ -12,11 +12,21 @@
 
 @property (nonatomic, strong) IBOutlet UILabel *timeLabel;
 
-- (IBAction)showCurrentTime:(id)sender;
+
 
 @end
 
 
 @implementation TimeViewController
+
+- (IBAction)showCurrentTime:(id)sender
+{
+    NSDate *now = [NSDate date];
+    
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    [formatter setTimeStyle:NSDateFormatterMediumStyle];
+    
+    [[self timeLabel] setText:[formatter stringFromDate:now]];
+}
 
 @end
