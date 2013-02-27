@@ -8,6 +8,7 @@
 
 #import "HypnoAppDelegate.h"
 #import "HypnosisViewController.h"
+#import "TimeViewController.h"
 
 @implementation HypnoAppDelegate
 
@@ -16,9 +17,17 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     
+    // This line will generate a warning, ignore it for now
     HypnosisViewController *hvc = [[HypnosisViewController alloc] init];
     
-    [[self window] setRootViewController:hvc];
+    
+    // This will get a pointer to an object that representa the app bundle
+    NSBundle *appBundle = [NSBundle mainBundle];
+    
+    // Tell the TimeVC to look in the appBundle for the file TimeViewController.xib
+    TimeViewController *tvc = [[TimeViewController alloc] initWithNibName:@"TimeViewController" bundle:appBundle];
+    
+    [[self window] setRootViewController:tvc];
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
