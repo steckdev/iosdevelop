@@ -8,6 +8,15 @@
 
 #import "TimeViewController.h"
 
+@interface TimeViewController()
+
+@property (nonatomic, strong) IBOutlet UILabel *timeLabel;
+
+- (IBAction)showCurrentTime:(id)sender;
+
+@end
+
+
 @implementation TimeViewController
 
 @end
