@@ -16,6 +16,8 @@
 		AD06B0FC16DDB0FB0090D12C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AD06B0FB16DDB0FB0090D12C /* Default.png */; };
 		AD06B0FE16DDB0FB0090D12C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD06B0FD16DDB0FB0090D12C /* Default@2x.png */; };
 		AD06B10016DDB0FB0090D12C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD06B0FF16DDB0FB0090D12C /* Default-568h@2x.png */; };
+		AD06B10816DDB1AA0090D12C /* HypnosisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD06B10716DDB1AA0090D12C /* HypnosisViewController.m */; };
+		AD06B10B16DDB9140090D12C /* HypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD06B10A16DDB9140090D12C /* HypnosisView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,10 @@
 		AD06B0FB16DDB0FB0090D12C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		AD06B0FD16DDB0FB0090D12C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		AD06B0FF16DDB0FB0090D12C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AD06B10616DDB1AA0090D12C /* HypnosisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HypnosisViewController.h; sourceTree = "<group>"; };
+		AD06B10716DDB1AA0090D12C /* HypnosisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HypnosisViewController.m; sourceTree = "<group>"; };
+		AD06B10916DDB9140090D12C /* HypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HypnosisView.h; sourceTree = "<group>"; };
+		AD06B10A16DDB9140090D12C /* HypnosisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HypnosisView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +84,10 @@
 		AD06B0EF16DDB0FB0090D12C /* 07.HypnoTime */ = {
 			isa = PBXGroup;
 			children = (
+				AD06B10916DDB9140090D12C /* HypnosisView.h */,
+				AD06B10A16DDB9140090D12C /* HypnosisView.m */,
+				AD06B10616DDB1AA0090D12C /* HypnosisViewController.h */,
+				AD06B10716DDB1AA0090D12C /* HypnosisViewController.m */,
 				AD06B0F816DDB0FB0090D12C /* HypnoAppDelegate.h */,
 				AD06B0F916DDB0FB0090D12C /* HypnoAppDelegate.m */,
 				AD06B0F016DDB0FB0090D12C /* Supporting Files */,
@@ -167,6 +177,8 @@
 			files = (
 				AD06B0F616DDB0FB0090D12C /* main.m in Sources */,
 				AD06B0FA16DDB0FB0090D12C /* HypnoAppDelegate.m in Sources */,
+				AD06B10816DDB1AA0090D12C /* HypnosisViewController.m in Sources */,
+				AD06B10B16DDB9140090D12C /* HypnosisView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
