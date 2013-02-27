@@ -24,6 +24,8 @@
 		AD06B11316DDBAB80090D12C /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = AD06B11216DDBAB80090D12C /* Default-Portrait@2x~ipad.png */; };
 		AD06B11516DDBABD0090D12C /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = AD06B11416DDBABD0090D12C /* Default-Landscape~ipad.png */; };
 		AD06B11716DDBACC0090D12C /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = AD06B11616DDBACC0090D12C /* Default-Landscape@2x~ipad.png */; };
+		AD06B11A16DDBB980090D12C /* HypnoTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD06B11916DDBB980090D12C /* HypnoTimeViewController.m */; };
+		AD06B11C16DDBCC70090D12C /* TimeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD06B11B16DDBCC70090D12C /* TimeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,9 @@
 		AD06B11216DDBAB80090D12C /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
 		AD06B11416DDBABD0090D12C /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
 		AD06B11616DDBACC0090D12C /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		AD06B11816DDBB980090D12C /* HypnoTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HypnoTimeViewController.h; sourceTree = "<group>"; };
+		AD06B11916DDBB980090D12C /* HypnoTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HypnoTimeViewController.m; sourceTree = "<group>"; };
+		AD06B11B16DDBCC70090D12C /* TimeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +113,9 @@
 				AD06B10716DDB1AA0090D12C /* HypnosisViewController.m */,
 				AD06B0F816DDB0FB0090D12C /* HypnoAppDelegate.h */,
 				AD06B0F916DDB0FB0090D12C /* HypnoAppDelegate.m */,
+				AD06B11816DDBB980090D12C /* HypnoTimeViewController.h */,
+				AD06B11B16DDBCC70090D12C /* TimeViewController.xib */,
+				AD06B11916DDBB980090D12C /* HypnoTimeViewController.m */,
 				AD06B0F016DDB0FB0090D12C /* Supporting Files */,
 			);
 			path = 07.HypnoTime;
@@ -189,6 +197,7 @@
 				AD06B11316DDBAB80090D12C /* Default-Portrait@2x~ipad.png in Resources */,
 				AD06B11516DDBABD0090D12C /* Default-Landscape~ipad.png in Resources */,
 				AD06B11716DDBACC0090D12C /* Default-Landscape@2x~ipad.png in Resources */,
+				AD06B11C16DDBCC70090D12C /* TimeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +212,7 @@
 				AD06B0FA16DDB0FB0090D12C /* HypnoAppDelegate.m in Sources */,
 				AD06B10816DDB1AA0090D12C /* HypnosisViewController.m in Sources */,
 				AD06B10B16DDB9140090D12C /* HypnosisView.m in Sources */,
+				AD06B11A16DDBB980090D12C /* HypnoTimeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
