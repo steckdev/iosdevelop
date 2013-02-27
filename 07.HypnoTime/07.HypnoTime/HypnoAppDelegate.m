@@ -27,7 +27,10 @@
     // Tell the TimeVC to look in the appBundle for the file TimeViewController.xib
     TimeViewController *tvc = [[TimeViewController alloc] initWithNibName:@"TimeViewController" bundle:appBundle];
     
-    [[self window] setRootViewController:tvc];
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    [tabBarController setViewControllers:@[hvc, tvc]];
+    
+    [[self window] setRootViewController:tabBarController];
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
