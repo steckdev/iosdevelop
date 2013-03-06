@@ -16,6 +16,14 @@
 		AD6270C816E7C198004FDAA4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AD6270C716E7C198004FDAA4 /* Default.png */; };
 		AD6270CA16E7C198004FDAA4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD6270C916E7C198004FDAA4 /* Default@2x.png */; };
 		AD6270CC16E7C198004FDAA4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD6270CB16E7C198004FDAA4 /* Default-568h@2x.png */; };
+		AD6270D316E7CE65004FDAA4 /* ReactorIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AD6270D216E7CE65004FDAA4 /* ReactorIcon.png */; };
+		AD6270D516E7CE69004FDAA4 /* ReactorIconRetina.png in Resources */ = {isa = PBXBuildFile; fileRef = AD6270D416E7CE69004FDAA4 /* ReactorIconRetina.png */; };
+		AD6270D716E7CE7A004FDAA4 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = AD6270D616E7CE7A004FDAA4 /* Default-Portrait~ipad.png */; };
+		AD6270D916E7CE8B004FDAA4 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = AD6270D816E7CE8B004FDAA4 /* Default-Portrait@2x~ipad.png */; };
+		AD6270DB16E7CE96004FDAA4 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = AD6270DA16E7CE96004FDAA4 /* Default-Landscape~ipad.png */; };
+		AD6270DD16E7CEA2004FDAA4 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = AD6270DC16E7CEA2004FDAA4 /* Default-Landscape@2x~ipad.png */; };
+		AD6270E616E7CFBB004FDAA4 /* HeavyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6270E416E7CFBB004FDAA4 /* HeavyViewController.m */; };
+		AD6270E716E7CFBB004FDAA4 /* HeavyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD6270E516E7CFBB004FDAA4 /* HeavyViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +40,15 @@
 		AD6270C716E7C198004FDAA4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		AD6270C916E7C198004FDAA4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		AD6270CB16E7C198004FDAA4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AD6270D216E7CE65004FDAA4 /* ReactorIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ReactorIcon.png; sourceTree = "<group>"; };
+		AD6270D416E7CE69004FDAA4 /* ReactorIconRetina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ReactorIconRetina.png; sourceTree = "<group>"; };
+		AD6270D616E7CE7A004FDAA4 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		AD6270D816E7CE8B004FDAA4 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		AD6270DA16E7CE96004FDAA4 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		AD6270DC16E7CEA2004FDAA4 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		AD6270E316E7CFBB004FDAA4 /* HeavyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HeavyViewController.h; path = ../HeavyViewController.h; sourceTree = "<group>"; };
+		AD6270E416E7CFBB004FDAA4 /* HeavyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HeavyViewController.m; path = ../HeavyViewController.m; sourceTree = "<group>"; };
+		AD6270E516E7CFBB004FDAA4 /* HeavyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HeavyViewController.xib; path = ../HeavyViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +68,12 @@
 		AD6270A916E7C198004FDAA4 = {
 			isa = PBXGroup;
 			children = (
+				AD6270DC16E7CEA2004FDAA4 /* Default-Landscape@2x~ipad.png */,
+				AD6270DA16E7CE96004FDAA4 /* Default-Landscape~ipad.png */,
+				AD6270D816E7CE8B004FDAA4 /* Default-Portrait@2x~ipad.png */,
+				AD6270D616E7CE7A004FDAA4 /* Default-Portrait~ipad.png */,
+				AD6270D416E7CE69004FDAA4 /* ReactorIconRetina.png */,
+				AD6270D216E7CE65004FDAA4 /* ReactorIcon.png */,
 				AD6270BB16E7C198004FDAA4 /* 08.HeavyRotation */,
 				AD6270B416E7C198004FDAA4 /* Frameworks */,
 				AD6270B316E7C198004FDAA4 /* Products */,
@@ -78,6 +101,9 @@
 		AD6270BB16E7C198004FDAA4 /* 08.HeavyRotation */ = {
 			isa = PBXGroup;
 			children = (
+				AD6270E316E7CFBB004FDAA4 /* HeavyViewController.h */,
+				AD6270E416E7CFBB004FDAA4 /* HeavyViewController.m */,
+				AD6270E516E7CFBB004FDAA4 /* HeavyViewController.xib */,
 				AD6270C416E7C198004FDAA4 /* RotationAppDelegate.h */,
 				AD6270C516E7C198004FDAA4 /* RotationAppDelegate.m */,
 				AD6270BC16E7C198004FDAA4 /* Supporting Files */,
@@ -155,6 +181,13 @@
 				AD6270C816E7C198004FDAA4 /* Default.png in Resources */,
 				AD6270CA16E7C198004FDAA4 /* Default@2x.png in Resources */,
 				AD6270CC16E7C198004FDAA4 /* Default-568h@2x.png in Resources */,
+				AD6270D316E7CE65004FDAA4 /* ReactorIcon.png in Resources */,
+				AD6270D516E7CE69004FDAA4 /* ReactorIconRetina.png in Resources */,
+				AD6270D716E7CE7A004FDAA4 /* Default-Portrait~ipad.png in Resources */,
+				AD6270D916E7CE8B004FDAA4 /* Default-Portrait@2x~ipad.png in Resources */,
+				AD6270DB16E7CE96004FDAA4 /* Default-Landscape~ipad.png in Resources */,
+				AD6270DD16E7CEA2004FDAA4 /* Default-Landscape@2x~ipad.png in Resources */,
+				AD6270E716E7CFBB004FDAA4 /* HeavyViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +200,7 @@
 			files = (
 				AD6270C216E7C198004FDAA4 /* main.m in Sources */,
 				AD6270C616E7C198004FDAA4 /* RotationAppDelegate.m in Sources */,
+				AD6270E616E7CFBB004FDAA4 /* HeavyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +283,7 @@
 				GCC_PREFIX_HEADER = "08.HeavyRotation/08.HeavyRotation-Prefix.pch";
 				INFOPLIST_FILE = "08.HeavyRotation/08.HeavyRotation-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -260,6 +295,7 @@
 				GCC_PREFIX_HEADER = "08.HeavyRotation/08.HeavyRotation-Prefix.pch";
 				INFOPLIST_FILE = "08.HeavyRotation/08.HeavyRotation-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -8,6 +8,8 @@
 
 #import "RotationAppDelegate.h"
 
+#import "HeavyViewController.h"
+
 @implementation RotationAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -17,7 +19,7 @@
     
     UIDevice *device = [UIDevice currentDevice];
     // Tell it to start monitoring the accelerometer for orientation
-    [device beginGeneratingDeviceOrientationNotifications];
+    [device beginGeneratingDeviceOrientationNotifications];    
     // Get the notification center for the app
     NSNotificationCenter *nc = [NSNotificationCenter defaultCenter];
     // Add yourself as an observer
@@ -25,6 +27,9 @@
            selector:@selector(orientationChanged:)
                name:UIDeviceOrientationDidChangeNotification
              object:device];
+    
+    HeavyViewController *hvc = [[HeavyViewController alloc] init];
+    [[self window] setRootViewController:hvc];
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
