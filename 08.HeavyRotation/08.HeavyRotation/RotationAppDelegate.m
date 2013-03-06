@@ -19,7 +19,9 @@
     
     UIDevice *device = [UIDevice currentDevice];
     // Tell it to start monitoring the accelerometer for orientation
-    [device beginGeneratingDeviceOrientationNotifications];    
+    [device beginGeneratingDeviceOrientationNotifications];
+    // Add device to Promiximity
+    [device setProximityMonitoringEnabled:YES];
     // Get the notification center for the app
     NSNotificationCenter *nc = [NSNotificationCenter defaultCenter];
     // Add yourself as an observer
