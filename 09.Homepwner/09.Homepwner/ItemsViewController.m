@@ -12,8 +12,6 @@
 
 @implementation ItemsViewController
 
-
-
 - (id)init
 {
     // Call the superclass's designated initializer
@@ -36,7 +34,16 @@
 - (NSInteger)tableView:(UITableView *)tableView
  numberOfRowsInSection:(NSInteger)section
 {
-    return [[[BNRItemStore sharedStore] allItems] count];
+    NSPredicate *predicate;
+    if (section == 0) {
+        predicate = [NSPredicate predicateWithFormat:@"valueInDollars > 50"];
+    } else {
+        predicate = [NSPredicate predicateWithFormat:@"valueInDollars <= 50"];
+    }
+    
+    NSArray *filteredArray = [[[BNRItemStore sharedStore] allItems] filteredArrayUsingPredicate:predicate];
+    NSInteger numRows = [filteredArray count];
+    return numRows;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView
@@ -56,13 +63,20 @@
                 reuseIdentifier:@"UITableViewCell"];
     }
     
+    // Bronze Challenge - Create predicate to filter the array using valueInDollars search string
+    NSPredicate *predicate;
+    if ([indexPath section] == 0) {
+        predicate = [NSPredicate predicateWithFormat:@"valueInDollars > 50"];
+    } else {
+        predicate = [NSPredicate predicateWithFormat:@"valueInDollars <= 50"];
+    }
     
-    // Set the text on the cell with the description of the item
-    // that is at the nth index of items, where n = row this cell
-    // will appear in on the tableview
-    BNRItem *p = [[[BNRItemStore sharedStore] allItems]
-                  objectAtIndex:[indexPath row]];
-    [[cell textLabel] setText:[p description]];
+    // Create a filtered array based on the predicate
+    NSArray *filteredArray = [[[BNRItemStore sharedStore] allItems] filteredArrayUsingPredicate:predicate];
+    // Create item to be used for the cell using the filtered array
+    BNRItem *item = [filteredArray objectAtIndex:[indexPath row]];
+    // Set the cell's text using the item
+    [[cell textLabel] setText:[item description]];
     return cell;
 }
 
