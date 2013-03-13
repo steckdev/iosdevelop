@@ -13,7 +13,7 @@
 @implementation ItemsViewController
 
 
-/*
+
 - (id)init
 {
     // Call the superclass's designated initializer
@@ -26,7 +26,7 @@
     }
     return self;
     
-}*/
+}
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -38,7 +38,6 @@
 {
     return [[[BNRItemStore sharedStore] allItems] count];
 }
-
 
 - (UITableViewCell *)tableView:(UITableView *)tableView
          cellForRowAtIndexPath:(NSIndexPath *)indexPath
