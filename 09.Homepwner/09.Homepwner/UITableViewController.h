@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface UITableViewController : NSObject
+@interface UITableViewController : UITableViewController
+
 
 @end
