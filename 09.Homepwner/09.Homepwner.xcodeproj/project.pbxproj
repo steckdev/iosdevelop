@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AD9436CD16F02D92009FA3FE /* BNRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9436CC16F02D92009FA3FE /* BNRItem.m */; };
+		AD9436D016F02FE7009FA3FE /* BNRItemStore.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9436CF16F02FE7009FA3FE /* BNRItemStore.m */; };
 		ADFB5BF216EE8F3D00B4A848 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADFB5BF116EE8F3D00B4A848 /* UIKit.framework */; };
 		ADFB5BF416EE8F3D00B4A848 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADFB5BF316EE8F3D00B4A848 /* Foundation.framework */; };
 		ADFB5BF616EE8F3D00B4A848 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADFB5BF516EE8F3D00B4A848 /* CoreGraphics.framework */; };
@@ -29,6 +30,8 @@
 /* Begin PBXFileReference section */
 		AD9436CB16F02D92009FA3FE /* BNRItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItem.h; sourceTree = "<group>"; };
 		AD9436CC16F02D92009FA3FE /* BNRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItem.m; sourceTree = "<group>"; };
+		AD9436CE16F02FE7009FA3FE /* BNRItemStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItemStore.h; sourceTree = "<group>"; };
+		AD9436CF16F02FE7009FA3FE /* BNRItemStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItemStore.m; sourceTree = "<group>"; };
 		ADFB5BEE16EE8F3D00B4A848 /* 09.Homepwner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 09.Homepwner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADFB5BF116EE8F3D00B4A848 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		ADFB5BF316EE8F3D00B4A848 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -109,6 +112,8 @@
 				ADFB5BF816EE8F3D00B4A848 /* Supporting Files */,
 				ADFB5C1D16EE8FC800B4A848 /* ItemsViewController.h */,
 				ADFB5C1E16EE8FC800B4A848 /* ItemsViewController.m */,
+				AD9436CE16F02FE7009FA3FE /* BNRItemStore.h */,
+				AD9436CF16F02FE7009FA3FE /* BNRItemStore.m */,
 			);
 			path = 09.Homepwner;
 			sourceTree = "<group>";
@@ -203,6 +208,7 @@
 				ADFB5C0216EE8F3D00B4A848 /* HomepwnerAppDelegate.m in Sources */,
 				ADFB5C1F16EE8FC800B4A848 /* ItemsViewController.m in Sources */,
 				AD9436CD16F02D92009FA3FE /* BNRItem.m in Sources */,
+				AD9436D016F02FE7009FA3FE /* BNRItemStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
