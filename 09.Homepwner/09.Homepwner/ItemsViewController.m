@@ -7,6 +7,8 @@
 //
 
 #import "ItemsViewController.h"
+#import "BNRItemStore.h"
+#import "BNRItem.h"
 
 @implementation ItemsViewController
 
@@ -15,6 +17,9 @@
     // Call the superclass's designated initializer
     self = [super initWithStyle:UITableViewStyleGrouped];
     if (self) {
+        for (int i = 0; i < 5; i++) {
+            [[BNRItemStore sharedStore] createItem];
+        }
         
     }
     return self;

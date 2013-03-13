@@ -7,6 +7,7 @@
 //
 
 #import "BNRItemStore.h"
+#import "BNRItem.h"
 
 @implementation BNRItemStore
 
@@ -21,6 +22,26 @@
 + (id)allocWithZone:(NSZone *)zone
 {
     return [self sharedStore];
+}
+
+- (id)init
+{
+    self = [super init];
+    if (self) {
+        allItems = [[NSMutableArray alloc] init];
+    }
+    return self;
+}
+
+- (NSArray *)allItems
+{
+    return allItems;
+}
+- (BNRItem *)createItem
+{
+    BNRItem *p = [BNRItem randomItem];
+    [allItems addObject:p];
+    return p;
 }
 
 @end
